@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <ul>
+      <li><a href="index.html">Principal</a></li>
+      <li><a class="select" href="crearContenido.html">Crear contenido</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+
+    <header>
+      <h1>Titulo de la pagina</h1>
+    </header>
+
+    <form id="publicacion">
+      <div id="inputs">
+        <div id="inputIzquierda">
+          <input type="text" id="titulo" name="titulo" placeholder="Titulo" />
+          <br />
+          <br />
+        </div>
+
+        <div id="inputDerecha">
+          <input type="text" id="autor" name="autor" placeholder="Autor" />
+          <br />
+          <br />
+        </div>
+      </div>
+
+      <textarea
+        placeholder="Contenido"
+        name="contenido"
+        id="contenido"
+        rows="15"
+      ></textarea
+      ><br />
+
+      <input type="submit" />
+    </form>
+
+
+    <div id="texto"></div>
+    <script type="module" src="crearContenido.js"></script>
+  </body>
+</html>
